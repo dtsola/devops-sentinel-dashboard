@@ -5,17 +5,17 @@ Sentinel与Nacos集成实现，实现控制台修改规则（流控规则、熔�
 ### 核心代码包
 com.github.dtsola.rule.nacos
 * 如图：
-![](/images/cc.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/6e7GXMtg/9Ys9r-FcEOelg0o5rdH2db_a-Sj8K806iMFelJL-Q2s*)
 ### 修改点相应包
 com.alibaba.csp.sentinel.dashboard.controller
 
 ### 配置生成规则
 应用名称+环境标识+规则类型+.json
 * 如图：
-![](/images/rule.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/J4oGWdtz/kPd3S8AE5OUb3OdclcHOR0N5pEPi6LSZ5Y9AIUecQEw*)
 ## 使用
 ### 界面
-![](/images/db.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/9L7GY7Co/Qfcw1bhkFZU_HByhA1ItNsqdoIlKMF9GGhUHbmy2eoo*)
 ### 控制台服务端
 [官方控制台使用说明](./Sentinel_Dashboard_README.md)
 
@@ -86,13 +86,13 @@ spring.cloud.sentinel.datasource.authority.nacos.rule-type=authority
 ```
 ### 测试
 #### Sentinel控制台 添加一条流控规则
-![](/images/lk.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/mmWxqQSw/UnBEtKhsY62iPH1mk_cvL0zKzcTetaG7R5SOoghS3jg*)
 
 #### Nacos中生成的响应文件以及内容
-![](/images/nkv.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/GPAGzLIZ/XVBzmgUGzcwMH3U7u9fb8aX9pObDa2mzudGkWrdIJI0*)
 
 #### Postman调用测试
-![](/images/rs.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/xndP6wfe/qhP4JmvK8yJfcP4OJLXcEt58eDNHMvRKLi9yQLxZZh8*)
 
 ## 联系我
 - E-Mail：dtsola@163.com
