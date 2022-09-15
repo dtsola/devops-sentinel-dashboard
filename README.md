@@ -13,10 +13,10 @@ com.alibaba.csp.sentinel.dashboard.controller
 ### 配置生成规则
 应用名称+环境标识+规则类型+.json
 * 如图：
-![](./images/rule.jpg)
+![](/images/rule.jpg)
 ## 使用
 ### 界面
-![](./images/db.jpg)
+![](/images/db.jpg)
 ### 控制台服务端
 [官方控制台使用说明](./Sentinel_Dashboard_README.md)
 
@@ -87,13 +87,13 @@ spring.cloud.sentinel.datasource.authority.nacos.rule-type=authority
 ```
 ### 测试
 #### Sentinel控制台 添加一条流控规则
-![](./images/lk.jpg)
+![](/images/lk.jpg)
 
 #### Nacos中生成的响应文件以及内容
-![](./images/nkv.jpg)
+![](/images/nkv.jpg)
 
 #### Postman调用测试
-![](./images/rs.jpg)
+![](/images/rs.jpg)
 
 ## 联系我
 - E-Mail：dtsola@163.com
