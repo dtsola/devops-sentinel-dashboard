@@ -5,7 +5,7 @@ Sentinel与Nacos集成实现，实现控制台修改规则（流控规则、熔�
 ### 核心代码包
 com.github.dtsola.rule.nacos
 * 如图：
-  ![](images/cc.jpg)
+![](/images/cc.jpg)
 
 ### 修改点相应包
 com.alibaba.csp.sentinel.dashboard.controller
