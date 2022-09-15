@@ -12,7 +12,7 @@ com.alibaba.csp.sentinel.dashboard.controller
 ### 配置生成规则
 应用名称+环境标识+规则类型+.json
 * 如图：
-![](/images/rule.jpg)
+![](https://github.com/dtsola/devops-sentinel-dashboard/blob/master/images/rule.jpg)
 ## 使用
 ### 界面
 ![](/images/db.jpg)
