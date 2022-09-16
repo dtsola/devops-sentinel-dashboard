@@ -1,6 +1,11 @@
 ## 概述
 Sentinel与Nacos集成实现，实现控制台修改规则（流控规则、熔断规则、热点规则、系统规则、授权规则）并存储Nacos。
 
+## 依赖
+- jdk 1.8+
+- spring boot 2.0.5.RELEASE
+- spring-cloud-alibaba 2.0.4.RELEASE
+- sentinel 1.8.5
 ## 代码说明
 ### 核心代码包
 com.github.dtsola.rule.nacos
