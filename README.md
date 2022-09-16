@@ -3,8 +3,8 @@ Sentinel与Nacos集成实现，实现控制台修改规则（流控规则、熔�
 
 ## 依赖
 - jdk 1.8+
-- spring boot 2.0.5.RELEASE
-- spring-cloud-alibaba 2.0.4.RELEASE
+- spring boot 2.3.12.RELEASE
+- spring-cloud-alibaba 2.2.8.RELEASE
 - sentinel 1.8.5
 ## 代码说明
 ### 核心代码包

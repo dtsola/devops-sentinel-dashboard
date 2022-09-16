@@ -23,24 +23,6 @@
 
     <dependencies>
 
-        <!-- 监控 -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
-<!--            <version>${spring.boot.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.micrometer</groupId>-->
-<!--            <artifactId>micrometer-registry-prometheus</artifactId>-->
-<!--            <version>1.0.6</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.github.mweirauch</groupId>-->
-<!--            <artifactId>micrometer-jvm-extras</artifactId>-->
-<!--            <version>0.2.0</version>-->
-<!--        </dependency>-->
-        <!-- -->
-
         <!-- spring cloud alibaba -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
