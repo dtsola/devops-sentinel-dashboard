@@ -21,8 +21,8 @@ import java.util.concurrent.ExecutionException;
 
 import com.alibaba.csp.sentinel.dashboard.auth.AuthAction;
 import com.alibaba.csp.sentinel.dashboard.auth.AuthService.PrivilegeType;
-import com.github.dtsola.rule.nacos.FlowRuleNacosProvider;
-import com.github.dtsola.rule.nacos.FlowRuleNacosPublisher;
+import com.dtsola.oss.devops.sentinel.dashboard.nacos.FlowRuleNacosProvider;
+import com.dtsola.oss.devops.sentinel.dashboard.nacos.FlowRuleNacosPublisher;
 import com.alibaba.csp.sentinel.util.StringUtil;
 
 import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.FlowRuleEntity;

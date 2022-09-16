@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.dtsola.rule.nacos;
+package com.dtsola.oss.devops.sentinel.dashboard.nacos;
 
-import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.AuthorityRuleEntity;
+import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.SystemRuleEntity;
 import com.alibaba.csp.sentinel.dashboard.rule.DynamicRulePublisher;
 import com.alibaba.csp.sentinel.datasource.Converter;
 import com.alibaba.csp.sentinel.util.AssertUtil;
@@ -27,22 +27,22 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class AuthorityRuleNacosPublisher implements DynamicRulePublisher<List<AuthorityRuleEntity>> {
+public class SystemRuleNacosPublisher implements DynamicRulePublisher<List<SystemRuleEntity>> {
 
     @Autowired
     private ConfigService configService;
     @Autowired
-    private Converter<List<AuthorityRuleEntity>, String> converter;
+    private Converter<List<SystemRuleEntity>, String> converter;
     @Value("${spring.profiles.active}")
     private String env;
 
     @Override
-    public void publish(String app, List<AuthorityRuleEntity> rules) throws Exception {
+    public void publish(String app, List<SystemRuleEntity> rules) throws Exception {
         AssertUtil.notEmpty(app, "app name cannot be empty");
         if (rules == null) {
             return;
         }
-        configService.publishConfig(app + String.format("-%s", env) + NacosConfigUtil.AUTHORITY_DATA_ID_POSTFIX,
+        configService.publishConfig(app + String.format("-%s", env) + NacosConfigUtil.SYSTEM_DATA_ID_POSTFIX,
             NacosConfigUtil.GROUP_ID, converter.convert(rules));
     }
 }

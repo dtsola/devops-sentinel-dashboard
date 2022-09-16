@@ -20,8 +20,8 @@ import java.util.List;
 
 import com.alibaba.csp.sentinel.dashboard.auth.AuthAction;
 import com.alibaba.csp.sentinel.dashboard.auth.AuthService.PrivilegeType;
-import com.github.dtsola.rule.nacos.AuthorityRuleNacosProvider;
-import com.github.dtsola.rule.nacos.AuthorityRuleNacosPublisher;
+import com.dtsola.oss.devops.sentinel.dashboard.nacos.AuthorityRuleNacosProvider;
+import com.dtsola.oss.devops.sentinel.dashboard.nacos.AuthorityRuleNacosPublisher;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.util.StringUtil;
 

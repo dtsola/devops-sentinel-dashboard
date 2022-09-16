@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.dtsola.rule.nacos;
+package com.dtsola.oss.devops.sentinel.dashboard.nacos;
 
-import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.DegradeRuleEntity;
+import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.SystemRuleEntity;
 import com.alibaba.csp.sentinel.dashboard.rule.DynamicRuleProvider;
 import com.alibaba.csp.sentinel.datasource.Converter;
 import com.alibaba.csp.sentinel.util.StringUtil;
@@ -28,18 +28,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class DegradeRuleNacosProvider implements DynamicRuleProvider<List<DegradeRuleEntity>> {
+public class SystemRuleNacosProvider implements DynamicRuleProvider<List<SystemRuleEntity>> {
 
     @Autowired
     private ConfigService configService;
     @Autowired
-    private Converter<String, List<DegradeRuleEntity>> converter;
+    private Converter<String, List<SystemRuleEntity>> converter;
     @Value("${spring.profiles.active}")
     private String env;
 
     @Override
-    public List<DegradeRuleEntity> getRules(String appName) throws Exception {
-        String rules = configService.getConfig(appName + String.format("-%s", env) + NacosConfigUtil.DEGRADE_DATA_ID_POSTFIX,
+    public List<SystemRuleEntity> getRules(String appName) throws Exception {
+        String rules = configService.getConfig(appName + String.format("-%s", env) + NacosConfigUtil.SYSTEM_DATA_ID_POSTFIX,
             NacosConfigUtil.GROUP_ID, 3000);
         if (StringUtil.isEmpty(rules)) {
             return new ArrayList<>();

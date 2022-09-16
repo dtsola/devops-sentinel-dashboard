@@ -30,7 +30,7 @@ import org.springframework.context.annotation.ComponentScans;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(value = {"com.github.dtsola.rule.nacos", "com.alibaba.csp.sentinel.dashboard"})
+@ComponentScan(value = {"com.dtsola.oss.devops.sentinel.dashboard.nacos", "com.alibaba.csp.sentinel.dashboard"})
 public class DashboardApplication {
 
     public static void main(String[] args) {

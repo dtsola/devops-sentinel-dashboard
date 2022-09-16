@@ -24,8 +24,8 @@ import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.ParamFlowRuleEn
 import com.alibaba.csp.sentinel.dashboard.discovery.AppManagement;
 import com.alibaba.csp.sentinel.dashboard.domain.Result;
 import com.alibaba.csp.sentinel.dashboard.repository.rule.RuleRepository;
-import com.github.dtsola.rule.nacos.ParamFlowRuleNacosProvider;
-import com.github.dtsola.rule.nacos.ParamFlowRuleNacosPublisher;
+import com.dtsola.oss.devops.sentinel.dashboard.nacos.ParamFlowRuleNacosProvider;
+import com.dtsola.oss.devops.sentinel.dashboard.nacos.ParamFlowRuleNacosPublisher;
 import com.alibaba.csp.sentinel.dashboard.util.VersionUtils;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.util.StringUtil;
