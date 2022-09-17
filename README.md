@@ -6,9 +6,10 @@ Sentinel与Nacos集成实现，实现控制台修改规则（流控规则、熔�
 - spring boot 2.3.12.RELEASE
 - spring-cloud-alibaba 2.2.8.RELEASE
 - sentinel 1.8.5
+- nacos 2.x+
 ## 代码说明
 ### 核心代码包
-com.github.dtsola.rule.nacos
+com.github.dtsola.rule.nacos -> com.dtsola.oss.devops.sentinel.dashboard.nacos
 * 如图：
 ![](https://pan.bilnn.cn/api/v3/file/sourcejump/6e7GXMtg/9Ys9r-FcEOelg0o5rdH2db_a-Sj8K806iMFelJL-Q2s*)
 ### 修改点相应包
