@@ -1,3 +1,8 @@
+## 联系我
+- E-Mail：dtsola@163.com
+- QQ：550182738
+
+
 ## 概述
 Sentinel与Nacos集成实现，实现控制台修改规则（流控规则、熔断规则、热点规则、系统规则、授权规则）并存储Nacos。
 
@@ -100,6 +105,3 @@ spring.cloud.sentinel.datasource.authority.nacos.rule-type=authority
 #### Postman调用测试
 ![](https://pan.bilnn.cn/api/v3/file/sourcejump/xndP6wfe/qhP4JmvK8yJfcP4OJLXcEt58eDNHMvRKLi9yQLxZZh8*)
 
-## 联系我
-- E-Mail：dtsola@163.com
-- QQ：550182738
